@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Enusa</title>
 
-    @vite(['resources/css/app_admin.css', 'resources/js/admin/app_admin.js'])
+    @vite(['resources/css/app_admin.scss', 'resources/js/admin/app_admin.js'])
 
 </head>
 
