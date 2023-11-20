@@ -18,7 +18,7 @@
                         <router-link to="/become-a-customer" class="btn btn-p-grey-57 text-p-black font-weight-600 font-size-13 me-3 hover-bg-p-orange-9 px-4 py-2 rounded-0">
                             Become a Customer
                         </router-link>
-                        <router-link to="/become-a-supplier" class="btn btn-p-grey-57 text-p-black font-weight-600 font-size-13 hover-bg-p-orange-9 px-4 py-2 rounded-0">
+                        <router-link to="/become-a-supplier" class="btn btn-p-grey-57 text-p-black font-weight-600 font-size-14 hover-bg-p-orange-9 px-4 py-2 rounded-0">
                             Become a Supplier
                         </router-link>
                     </div>
