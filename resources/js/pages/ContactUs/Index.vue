@@ -9,7 +9,7 @@
     <div class="row g-5">
       <div class="col-md-6">
         <div
-          class="card border-p-black position-relative pb-5"
+          class="card border-p-black position-relative pb-4"
           style="border-radius: 0 !important;"
         >
           <div
@@ -20,8 +20,8 @@
               Benefit join Become a Customer
             </div>
           </div>
-          <div class="card-body p-0">
-            <div class="font-size-16 font-weight-400 pt-5 pb-4 px-4">
+          <div class="card-body p-4">
+            <div class="font-size-16 font-weight-400 pt-5 pb-1 px-5">
               <ol>
                 <li>Contactable key account officer.</li>
                 <li>Trusted and validated supplier.</li>
@@ -34,7 +34,7 @@
             </div>
             <div
               class="w-100 d-flex align-items-center justify-content-center"
-              style="position: absolute; bottom: -5%;"
+              style="position: absolute; bottom: -6%;"
             >
               <router-link
                 to="/become-a-customer"
@@ -60,7 +60,7 @@
             </div>
           </div>
           <div class="card-body p-0">
-            <div class="font-size-16 font-weight-400 pt-5 pb-4 px-4">
+            <div class="font-size-16 font-weight-400 pt-5 pb-4 px-5">
               <ol>
                 <li>Expanded Market Access.</li>
                 <li>Reliable Demand and Consistent Sales.</li>
@@ -72,10 +72,10 @@
                 <li>Guidance to Improve Product.</li>
               </ol>
             </div>
-            <div class="0">
+            <div class="text-center py-0">
               <div
                 class="w-100 d-flex align-items-center justify-content-center"
-                style="position: absolute; bottom: -3%;"
+                style="position: absolute; bottom: -5%;"
               >
                 <router-link
                   to="/become-a-supplier"

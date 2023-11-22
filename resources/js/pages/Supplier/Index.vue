@@ -82,7 +82,7 @@
           </div>
           <div>
             <div class="position-relative mt-5">
-              <label style="top: -17px;left: 12px;" class="position-absolute px-2 bg-p-white font-size-16 font-weight-500 " for="sub_distric">Sub District</label>
+              <label style="top: -17px;left: 12px;" class="position-absolute px-2 bg-p-white font-size-16 font-weight-500 " for="sub_distric">Sub Distric</label>
               <Field name="sub_distric" type="text" class="form-control rounded-8 border-1 border-p-grey-56" :class="{ 'is-invalid': errors.sub_distric }" id="sub_distric" placeholder="" />
               <span class="invalid-feedback">{{ errors.sub_distric }}</span>
             </div>
