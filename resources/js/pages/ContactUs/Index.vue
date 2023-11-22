@@ -21,7 +21,9 @@
             </div>
           </div>
           <div class="card-body p-4">
-            <div class="font-size-16 font-weight-400 pt-4 pb-5 px-5">
+          
+            <div class="font-size-16 font-weight-400 pt-5 pb-1 px-5">
+
               <ol>
                 <li>Contactable key account officer.</li>
                 <li>Trusted and validated supplier.</li>

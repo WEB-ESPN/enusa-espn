@@ -102,7 +102,7 @@
             <span class="sr-only">Loading...</span>
         </div>
         <button class="btn btn-success px-5 py-3" v-else>
-          Submit Test
+          Submit
         </button>
       </div>
     </Form>

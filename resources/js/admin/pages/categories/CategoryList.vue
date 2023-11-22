@@ -107,7 +107,7 @@
                             <label for="image">Header Image</label>
                             <div v-if="statusEditing">
                                 <br>
-                                <img :src="formHeaderImage.image" class="img" :width="150">
+                                <img :src="formImage.header_image" class="img" :width="150">
                             </div>
                             <Field name="header_image" type="file" class="form-control" :class="{ 'is-invalid': errors.header_image }" id="header_image" aria-describedby="header_imageHelp" accept="image/*" />
                             <span class="invalid-feedback">{{ errors.header_image }}</span>
@@ -168,7 +168,6 @@
     const form               = ref(null);
     const formValues         = ref(null);
     const formImage          = ref(null);
-    const formHeaderImage    = ref(null);
     const dataIdBeingDeleted = ref(null);
     const pageNumber         = ref(0);
 
@@ -191,13 +190,11 @@
                 image      : null,
             };
             formImage.value = { image : data.image };            
-            formHeaderImage.value = { image : data.header_image };            
         } else {
             formValues.value = {
                 id         : null,
                 title      : null,
                 image      : null,
-                header_image: null,
             };
         }
     };
