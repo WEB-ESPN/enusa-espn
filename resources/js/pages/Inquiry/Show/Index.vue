@@ -134,7 +134,7 @@
               </div>
               <div>
                 <div class="position-relative mt-5">
-                  <label style="top: -17px;left: 12px;" class="position-absolute px-2 bg-p-white font-size-16 font-weight-500 " for="note">Spect and Note</label>
+                  <label style="top: -17px;left: 12px;" class="position-absolute px-2 bg-p-white font-size-16 font-weight-500 " for="note">Specification</label>
                   <Field name="note" as="textarea" class="form-control rounded-8 border-1 border-p-grey-56" :class="{ 'is-invalid': errors.note }" id="note" placeholder="" />
                   <span class="invalid-feedback">{{ errors.note }}</span>
                 </div>
