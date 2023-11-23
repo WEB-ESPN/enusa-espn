@@ -141,7 +141,8 @@
               </div>
               <div class="row">
                 <div class="col-md-6">
-                  <div class="position-relative mt-5">
+                  <div class="position-relative mt-5">npm run dev
+                    
                     <label style="top: -17px;left: 12px;" class="position-absolute px-2 bg-p-white font-size-16 font-weight-500" for="payment_method">Payment Method</label>
                     <Field name="payment_method" as="select" class="form-control rounded-8 border-1 border-p-grey-56" :class="{ 'is-invalid': errors.payment_method }" id="payment_method">
                       <option value="">Select Payment Method</option>
