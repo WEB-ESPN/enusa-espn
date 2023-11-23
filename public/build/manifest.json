@@ -1,4 +1,14 @@
 {
+  "_api-2ce132c3.js": {
+    "css": [
+      "assets/api-58343b97.css"
+    ],
+    "file": "assets/api-2ce132c3.js"
+  },
+  "api.css": {
+    "file": "assets/api-58343b97.css",
+    "src": "api.css"
+  },
   "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf": {
     "file": "assets/fa-brands-400-003f1154.ttf",
     "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf"
@@ -100,8 +110,23 @@
     "isEntry": true,
     "src": "resources/css/app_admin.css"
   },
+  "resources/js/admin/app_admin.css": {
+    "file": "assets/app_admin-71b4b752.css",
+    "src": "resources/js/admin/app_admin.css"
+  },
+  "resources/js/admin/app_admin.js": {
+    "css": [
+      "assets/app_admin-71b4b752.css"
+    ],
+    "file": "assets/app_admin-afae2833.js",
+    "imports": [
+      "_api-2ce132c3.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/admin/app_admin.js"
+  },
   "resources/js/app.css": {
-    "file": "assets/app-63699050.css",
+    "file": "assets/app-1b5d5de2.css",
     "src": "resources/js/app.css"
   },
   "resources/js/app.js": {
@@ -116,9 +141,12 @@
       "assets/fa-v4compatibility-455e8e72.ttf"
     ],
     "css": [
-      "assets/app-63699050.css"
+      "assets/app-1b5d5de2.css"
     ],
-    "file": "assets/app-1c115ce7.js",
+    "file": "assets/app-d384cf04.js",
+    "imports": [
+      "_api-2ce132c3.js"
+    ],
     "isEntry": true,
     "src": "resources/js/app.js"
   },
